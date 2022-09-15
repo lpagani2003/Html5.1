@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex; 
+    height: 400px;
+    /*flex-direction: row ; /*column, row-reverse, column-reverse*/
+    /*flex-wrap:  nowrap;  /* nowrap / wrap-reverse; */
+    /* atajo  */
+    flex-flow: row wrap;    
+    justify-content:  space-around; /*flex-start / flex-end / center/ space-around/ space-between / space-evenly
+    /*  alrededor Entre uniformemente  */
+    align-items:   center; /*flex-start / flex-end / center/ space-around/ space-between / space-evenly*/
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }

@@ -1,0 +1,265 @@
+@media only screen and (min-width: 600px){
+    header{
+        background-color: rgb(97, 97, 253);
+    }
+    #Pagani{
+        color: rgb(145, 145, 145); text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0%;
+        font-family: 'Pirulen';
+        font-size: 8vh;
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    #DI, #Pagani, #Sec{
+        color: rgb(0, 0, 0); text-align: center;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    nav{
+        background-color: red; text-align: center; padding: 15px;
+    }
+    a:link{
+       color: black; text-align: center; padding: 10px;
+    }
+    a:visited{
+        color: rgb(0, 0, 0);
+    }
+    a:hover{
+        color: rgb(25, 0, 255);
+    }
+    a:active{
+        color: rgb(red, green, blue);
+    }
+    #background{
+    
+    }
+    #foto, #carshow, video{
+        width: 50vw;
+    }
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    table{
+        table-layout: fixed ;
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(97, 97, 245);
+    }
+    
+}
+@media only screen and (min-width: 900px){
+    header{
+        background-color: rgb(97, 97, 253);
+    }
+    #Pagani{
+        color: rgb(145, 145, 145); text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0%;
+        font-family: 'Pirulen';
+        font-size: 8vh;
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    #DI, #Pagani, #Sec{
+        color: rgb(0, 0, 0); text-align: center;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    nav{
+        background-color: red; text-align: center; padding: 15px;
+    }
+    a:link{
+       color: black; text-align: center; padding: 10px;
+    }
+    a:visited{
+        color: rgb(0, 0, 0);
+    }
+    a:hover{
+        color: rgb(25, 0, 255);
+    }
+    a:active{
+        color: rgb(red, green, blue);
+    }
+    #background{
+    
+    }
+    #foto, #carshow, video{
+        width: 50vw;
+    }
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    table{
+        table-layout: fixed ;
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(97, 97, 245);
+    }
+    
+}
+@media only screen and (min-width: 1300px){
+    header{
+        background-color: rgb(97, 97, 253);
+    }
+    #Pagani{
+        color: rgb(145, 145, 145); text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0%;
+        font-family: 'Pirulen';
+        font-size: 8vh;
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    #DI, #Pagani, #Sec{
+        color: rgb(0, 0, 0); text-align: center;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    nav{
+        background-color: red; text-align: center; padding: 15px;
+    }
+    a:link{
+       color: black; text-align: center; padding: 10px;
+    }
+    a:visited{
+        color: rgb(0, 0, 0);
+    }
+    a:hover{
+        color: rgb(25, 0, 255);
+    }
+    a:active{
+        color: rgb(red, green, blue);
+    }
+    #background{
+    
+    }
+    #foto, #carshow, video{
+        width: 50vw;
+    }
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    table{
+        table-layout: fixed ;
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(97, 97, 245);
+    }
+    
+}
+@media only screen and (min-width: 1600px){
+    header{
+        background-color: rgb(97, 97, 253);
+    }
+    #Pagani{
+        color: rgb(145, 145, 145); text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0%;
+        font-family: 'Pirulen';
+        font-size: 8vh;
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    #DI, #Pagani, #Sec{
+        color: rgb(0, 0, 0); text-align: center;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    nav{
+        background-color: red; text-align: center; padding: 15px;
+    }
+    a:link{
+       color: black; text-align: center; padding: 10px;
+    }
+    a:visited{
+        color: rgb(0, 0, 0);
+    }
+    a:hover{
+        color: rgb(25, 0, 255);
+    }
+    a:active{
+        color: rgb(red, green, blue);
+    }
+    #background{
+    
+    }
+    #foto, #carshow, video{
+        width: 50vw;
+    }
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    table{
+        table-layout: fixed ;
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(97, 97, 245);
+    }
+    
+}
+@media only screen and (min-width: 1900px){
+    header{
+        background-color: rgb(97, 97, 253);
+    }
+    #Pagani{
+        color: rgb(145, 145, 145); text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0%;
+        font-family: 'Pirulen';
+        font-size: 8vh;
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    #DI, #Pagani, #Sec{
+        color: rgb(0, 0, 0); text-align: center;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    nav{
+        background-color: red; text-align: center; padding: 15px;
+    }
+    a:link{
+       color: black; text-align: center; padding: 10px;
+    }
+    a:visited{
+        color: rgb(0, 0, 0);
+    }
+    a:hover{
+        color: rgb(25, 0, 255);
+    }
+    a:active{
+        color: rgb(red, green, blue);
+    }
+    #background{
+    
+    }
+    #foto, #carshow, video{
+        width: 50vw;
+    }
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        font-family: 'Pirulen';
+        src: url(/CSS/pirulen\ rg.otf);
+    }
+    table{
+        table-layout: fixed ;
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(97, 97, 245);
+    }
+    
+}
