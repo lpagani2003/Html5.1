@@ -1,3 +1,128 @@
+body{
+    background-color: #00324b;
+}
+header {
+
+    width:100%;
+}
+
+input#abrir-cerrar {
+    visibility:hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+
+label[for="abrir-cerrar"] {
+    cursor:pointer;
+    padding: 1rem;
+    /*background-color:#333;*/
+    color:#fff;
+    display:inline-block;
+    width:100%;
+
+}
+
+.cerrar {
+    display:none;
+}
+
+#sidebar {
+    width:0;
+}
+
+#contenido {
+    margin-left:0;
+}
+
+input#abrir-cerrar:checked ~ #sidebar {
+    width:300px;
+}
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
+    margin-left:300px;
+    transition: margin-left .4s;
+}
+
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
+    display:inline;
+}
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
+    display:none;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #00324b;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    color: #eee;
+    text-decoration: none;
+    
+}
+
+.sidebar a:hover{
+    color:rgb(255, 196, 0);
+    /*background-color: #f90;*/
+
+}
+
+h1 {
+    color:#f90;
+    font-size:180%;
+    font-weight:normal;
+}
+#contenido {
+    transition: margin-left .4s;
+    padding: 1rem;
+}
+
+.abrir-cerrar {
+    color: #2E88C7;
+    font-size:1rem;   
+}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -29,25 +154,13 @@
     font-family: 'Pirulen';
     src: url(/CSS/pirulen\ rg.otf);
 }
-nav{
-    text-align: center; 
-    padding: 15px;  
-    font-size: 1.5vw;
-    font-family: 'Pirulen';
-    src: url(/CSS/pirulen\ rg.otf);
-}
 a:link{
    color: black; text-align: center; padding: 10px;
 }
-a:visited{
-    color: rgb(0, 0, 0);
-}
 a:hover{
-    color: rgb(25, 0, 255);
+    color: rgb(255, 255, 255);
 }
-a:active{
-    color: rgb(red, green, blue);
-}
+
 #background{
  width: 100vw;
 }
@@ -56,11 +169,11 @@ a:active{
 }
 #der{
     text-align: left;
-    margin-left: 4vw;
+    margin-left: 0vw;
 }
 #izq{
-text-align: right;
-margin-right: 4vw;
+    text-align: right;
+    margin-right: 0vw;
 }
 #MX, #Descripcion, #boton{
     font-size: 2vw;
